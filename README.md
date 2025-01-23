@@ -47,4 +47,4 @@ Statistiken:
 Treffer und Fehlversuche werden während des Spiels angezeigt.
 Gewinnerstatistiken werden nach Abschluss gespeichert.
 
-## Link zum Spiel (https://schiffe-versenken-5dra.vercel.app/)
+## Link zum Spiel (https://schiffe-versenken.vercel.app/)
