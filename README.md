@@ -11,7 +11,6 @@
 -   Visuelle Steuerung durch Drag-and-Drop zum Platzieren der Schiffe.
 -   Statistiken, wie Anzahl der Treffer, Fehlversuche und verbleibende Schiffe.
 -   GitHub Pages-Hosting, um das Spiel direkt online zu spielen.
--
 
 ## Technologien
 
