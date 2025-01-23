@@ -1,4 +1,3 @@
-import React from 'react';
 import { Difficulty } from '../../types/battleship';
 
 interface DifficultySelectorProps {

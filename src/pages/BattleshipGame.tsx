@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import { useState } from "react"
 import { useGameLogic } from "../hooks/useGameLogic"
 import { GameBoard } from "../components/Battleship/GameBoard"
 import { Instructions } from "../components/Battleship/Instructions"
@@ -11,7 +11,7 @@ import "../styles/Battleship.css"
 export default function BattleshipGame() {
     const [difficulty, setDifficulty] = useState<Difficulty>("medium")
     const { playerBoard, computerBoard, gameState, score, startGame, playerMove, playerShips, computerShips } =
-        useGameLogic(difficulty)
+        useGameLogic()
 
     return (
         <div className="battleship-container">

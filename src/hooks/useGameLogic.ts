@@ -1,5 +1,5 @@
 import { useState, useCallback } from "react"
-import { type Board, CellState, type Difficulty, type GameState, type Ship } from "../types/battleship"
+import { type Board, type GameState, type Ship } from "../types/battleship"
 
 const BOARD_SIZE = 10
 const SHIPS: Ship[] = [
@@ -16,7 +16,7 @@ export function createEmptyBoard(size: number): Board {
         .map(() => Array(size).fill("empty"))
 }
 
-export function useGameLogic(difficulty: Difficulty) {
+export function useGameLogic() {
     const [playerBoard, setPlayerBoard] = useState<Board>(createEmptyBoard(BOARD_SIZE))
     const [computerBoard, setComputerBoard] = useState<Board>(createEmptyBoard(BOARD_SIZE))
     const [gameState, setGameState] = useState<GameState>("setup")
@@ -151,4 +151,3 @@ export function useGameLogic(difficulty: Difficulty) {
         computerShips,
     }
 }
-

@@ -6,7 +6,7 @@ interface ShipsPanelProps {
     side: "left" | "right"
 }
 
-export function ShipsPanel({ ships, side }: ShipsPanelProps) {
+export function ShipsPanel({ ships }: ShipsPanelProps) {
     return (
         <div className="ships-panel">
             <h3>Schiffe</h3>

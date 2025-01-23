@@ -1,4 +1,4 @@
-import { Board, Ship, CellState } from '../types/battleship';
+import { Board, Ship } from '../types/battleship';
 
 export function createEmptyBoard(size: number): Board {
     return Array(size).fill(null).map(() => Array(size).fill('empty'));
