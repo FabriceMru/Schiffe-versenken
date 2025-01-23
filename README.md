@@ -1,51 +1,51 @@
-# React + TypeScript + Vite
+# Schiffe Versenken
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Beschreibung
 
-Currently, two official plugins are available:
+### Schiffe Versenken ist mein erstes Spielprojekt, inspiriert vom klassischen Strategie-Brettspiel, mit modernen Design-Elementen und spannenden neuen Funktionen wie einem Multiplayer-Modus und verschiedenen Schwierigkeitsgraden. Dieses Projekt wurde erstellt, um meine Fähigkeiten in Webentwicklung und Programmierung zu verbessern.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Das Spiel bietet:
 
-## Expanding the ESLint configuration
+-   Zwei Spielmodi: Einzelspieler gegen die KI und Multiplayer.
+-   Verschiedene Schwierigkeitsgrade, die die Intelligenz der KI anpassen.
+-   Visuelle Steuerung durch Drag-and-Drop zum Platzieren der Schiffe.
+-   Statistiken, wie Anzahl der Treffer, Fehlversuche und verbleibende Schiffe.
+-   GitHub Pages-Hosting, um das Spiel direkt online zu spielen.
+-
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Technologien
 
-- Configure the top-level `parserOptions` property like this:
+Dieses Projekt wurde mit folgenden Technologien entwickelt:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+-   HTML5: Strukturierung der Webseite und Implementierung der Spiellogik.
+-   CSS3: Gestaltung des Spiels mit einem modernen und intuitiven Design.
+-   JavaScript: Steuerung der Spielfunktionen, KI-Logik und Benutzerinteraktion.
+-   GitHub Pages: Hosting des Projekts für den einfachen Zugriff.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Spielanleitung
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+### Ziel des Spiels:
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
-# schiffe-versenken
+Zerstöre alle gegnerischen Schiffe, bevor alle deine Schiffe versenkt werden. Spiele strategisch, um Treffer zu landen, und denke voraus, um dein Gegner zu überlisten.
+
+Steuerung:
+Schiffe platzieren: Ziehe die Schiffe per Drag-and-Drop auf das Spielfeld.
+Angriffe: Klicke auf ein Feld im gegnerischen Spielfeld, um dort zu schießen.
+Spielmodi:
+
+Einzelspieler-Modus: Spiele gegen eine KI, die zwischen drei Schwierigkeitsstufen wählbar ist:
+Einfach: Die KI wählt zufällige Felder.
+Mittel: Die KI merkt sich Treffer und sucht in der Nähe weiter.
+Schwer: Die KI verwendet eine optimierte Strategie zur Schiffssuche.
+Multiplayer-Modus: Spiele mit einem Freund und wechselt euch ab, um Felder anzugreifen.
+Spielverlauf:
+
+Schiffe platzieren: Jedes Team hat 5 Schiffe unterschiedlicher Größe, die strategisch auf dem Spielfeld platziert werden.
+Angriff: Ziel mit der Maus oder einem Klick auf das gegnerische Feld.
+Treffer oder Verfehlt: Treffer werden markiert, und das Spiel geht weiter, bis ein Spieler keine Schiffe mehr hat.
+Statistiken:
+
+Treffer und Fehlversuche werden während des Spiels angezeigt.
+Gewinnerstatistiken werden nach Abschluss gespeichert.
+
+## Link zum Spiel [Link to the game](https://fabricemru.github.io/NeonSnakeTwoGame/)
