@@ -18,7 +18,7 @@ Dieses Projekt wurde mit folgenden Technologien entwickelt:
 
 -   HTML5: Strukturierung der Webseite und Implementierung der Spiellogik.
 -   CSS3: Gestaltung des Spiels mit einem modernen und intuitiven Design.
--   JavaScript: Steuerung der Spielfunktionen, KI-Logik und Benutzerinteraktion.
+-   JavaScript& TypeScript: Steuerung der Spielfunktionen, KI-Logik und Benutzerinteraktion.
 -   GitHub Pages: Hosting des Projekts für den einfachen Zugriff.
 
 ## Spielanleitung
@@ -48,4 +48,5 @@ Treffer und Fehlversuche werden während des Spiels angezeigt.
 Gewinnerstatistiken werden nach Abschluss gespeichert.
 
 ## Link zum Spiel (https://schiffe-versenken.vercel.app/)
+
 ![img.png](public/img.png)
