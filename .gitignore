@@ -7,33 +7,52 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
+# Node modules und Build-Verzeichnisse
+node_modules/
+dist/
+dist-ssr/
 *.local
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# Editor-Verzeichnisse und Dateien
+.vscode/
+.idea/
 .DS_Store
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
-.idea/
-.idea
-.vscode
-.gitignore/
-.gitignore
 
-package-lock.json
-package.json
-tsconfig.app.json
-tsconfig.json
-tsconfig.node.json
-vite.config.ts
+# Lokale Umgebungsvariablen
+.env
+.env.local
+.env.*.local
 
-eslint.config.js
-vite-env.d.ts
+# System-Dateien
+Thumbs.db
+ehthumbs.db
+
+# Optionaler Output
+out/
+coverage/
+
+# Lock-Dateien
+pnpm-lock.yaml
+yarn.lock
+
+# Spezifische IDE-Dateien
+.vscode/*
+!.vscode/extensions.json
+
+# ESLint und TypeScript
+eslint.cache
+*.tsbuildinfo
+
+# Sicherstellen, dass wichtige Projektdateien nicht ignoriert werden
+!.gitignore
+!package.json
+!package-lock.json
+!tsconfig.json
+!tsconfig.app.json
+!tsconfig.node.json
+!vite.config.ts
