@@ -36,3 +36,4 @@ tsconfig.node.json
 vite.config.ts
 
 eslint.config.js
+vite-env.d.ts
